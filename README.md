@@ -48,18 +48,18 @@ We are given a hotel bookings dataset. The dataset contains booking information 
 Data Cleaning and Feature Engineering
 
 1.	Removing Duplicate rows
-All duplicate rows were dropped.
-Total number of rows cleaned: 31994
+   All duplicate rows were dropped.
+   Total number of rows cleaned: 31994
 2.	Handling null values
-•	Null values in column country was replaced by “na”.
-•	Null values in column agent was replaced by 0.
-•	Null values in column company was replaced by 0.
+  •	Null values in column country was replaced by “na”.
+  •	Null values in column agent was replaced by 0.
+  •	Null values in column company was replaced by 0.
 3.	Removing columns not required in analysis
-•	Columns adults, children, babies.
-•	Columns stays_in_week_nights and stays_in_weekend_nights.
+  •	Columns adults, children, babies.
+  •	Columns stays_in_week_nights and stays_in_weekend_nights.
 4.	 Creating new columns
-•	Column guests adding adults, children, babies.
-•	Created new column total_hotel_stay by adding stays_in_week_nights and stays_in_weekend_nights.
+  •	Column guests adding adults, children, babies.
+  •	Created new column total_hotel_stay by adding stays_in_week_nights and stays_in_weekend_nights.
 
 
 Exploratory Data Analysis
@@ -80,11 +80,11 @@ Performed EDA and tried answering the following questions:
  Q13) Which of the hotels guests demand special requests?
  
 Pictoral representations were mainly performed using Matplotlib and Seaborn library and the following graphs and plots had been used:
-•	Bar Plot.
-•	Count Plot.
-•	Pie Chart.
-•	Line Plot.
-•	Heatmap.
+  •	Bar Plot.
+  •	Count Plot.
+  •	Pie Chart.
+  •	Line Plot.
+  •	Heatmap.
 
 Analysis:
 Performed univariate analysis and made following conclusions:
